@@ -39,7 +39,7 @@ p <- plot_ly(pkgs, x=~Date, y=~published, name="Published packages") %>%
   layout(title = "CRAN packages over time")
 htmlwidgets::saveWidget(as.widget(p), file = "growth.html")
 ```
-<iframe src="growth.html" style="position:absolute;height:150%;width:150%"></iframe>
+<iframe src="growth.html" style="position:absolute;height:100%;width:100%"></iframe>
 
 So should I hop on the bandwagon?
 ========================================================
@@ -123,11 +123,37 @@ What do I need to know?
 Demo
 =======================================================
 - Executing [RStudio integration](https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-RStudio)
+- Will use [this script](https://github.com/caleblareau/Rpkgs/blob/master/hello.R)
+<br><br>
+DEMO
 
 Making a Help Manual
 =======================================================
 <DIV ALIGN=CENTER>
 <img src="help.png" width="100%" height="100%" />
+</DIV>
+- Show how to compile one
+
+Recent Example...
+=======================================================
+```{r echo = FALSE}
+df <- readRDS("memUsage.rds")
+p2 <- plot_ly(df,x=~ncells, y=~regular, type = "scatter", mode = 'markers', name = 'regular' ) %>% add_trace(y = ~yolo, name = 'yolo', mode = 'markers') %>% layout(xaxis = list(title = "Number of Cells"), yaxis = list(title = "Storage Demands (Mb)"), title = "RAM Use")
+htmlwidgets::saveWidget(as.widget(p2), file = "yolo_mem.html")
+```
+<iframe src="yolo_mem.html" style="position:absolute;height:100%;width:100%"></iframe>
+
+Solution
+=======================================================
+<DIV ALIGN=CENTER>
+<img src="yolo1a.png" width="100%" height="100%" />
+</DIV>
+
+Solution
+=======================================================
+- [yolo](https://github.com/caleblareau/yolo)
+<DIV ALIGN=CENTER>
+<img src="yolo.png" width="100%" height="100%" />
 </DIV>
 
 Publishing
@@ -172,6 +198,8 @@ Optimal
 - New applications cause it to break -> Unit Testing
 - You confuse yourself -> Required Documentation
 - Easy publication?
+<br><br>
+Is it worth the time investment?
 
 Thanks!
 =======================================================

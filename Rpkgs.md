@@ -7,7 +7,7 @@ Growth of R Packages
 ========================================================
 
 
-<iframe src="growth.html" style="position:absolute;height:150%;width:150%"></iframe>
+<iframe src="growth.html" style="position:absolute;height:100%;width:100%"></iframe>
 
 So should I hop on the bandwagon?
 ========================================================
@@ -91,11 +91,33 @@ What do I need to know?
 Demo
 =======================================================
 - Executing [RStudio integration](https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-RStudio)
+- Will use [this script](https://github.com/caleblareau/Rpkgs/blob/master/hello.R)
+<br><br>
+DEMO
 
 Making a Help Manual
 =======================================================
 <DIV ALIGN=CENTER>
 <img src="help.png" width="100%" height="100%" />
+</DIV>
+- Show how to compile one
+
+Recent Example...
+=======================================================
+
+<iframe src="yolo_mem.html" style="position:absolute;height:100%;width:100%"></iframe>
+
+Solution
+=======================================================
+<DIV ALIGN=CENTER>
+<img src="yolo1a.png" width="100%" height="100%" />
+</DIV>
+
+Solution
+=======================================================
+- [yolo](https://github.com/caleblareau/yolo)
+<DIV ALIGN=CENTER>
+<img src="yolo.png" width="100%" height="100%" />
 </DIV>
 
 Publishing
@@ -140,6 +162,8 @@ Optimal
 - New applications cause it to break -> Unit Testing
 - You confuse yourself -> Required Documentation
 - Easy publication?
+<br><br>
+Is it worth the time investment?
 
 Thanks!
 =======================================================
