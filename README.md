@@ -1,2 +1,2 @@
 # Rpkgs
-A short presentation on R package logistics, creation, etc. 
+[Presentation Here](https://caleblareau.github.io/Rpkgs/#/)
