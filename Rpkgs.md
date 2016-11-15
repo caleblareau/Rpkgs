@@ -9,31 +9,31 @@ Growth of R Packages
 
 <iframe src="growth.html" style="position:absolute;height:150%;width:150%"></iframe>
 
-So should I hop on the bandwagon? 
+So should I hop on the bandwagon?
 ========================================================
 
-A quick Google Search... 
+A quick Google Search...
 ========================================================
 "Should I write my own R package"
- 
+
 ========================================================
 <DIV ALIGN=CENTER>
 <img src="yes.gif" width="80%" height="80%" />
 </DIV>
 
-But really...
+But in reality...
 ========================================================
 
- 
+
 ========================================================
 <DIV ALIGN=CENTER>
-<img src="maybe.gif" width="80%" height="80%" />
+<img src="NO.gif" width="80%" height="80%" />
 </DIV>
 
-How do I decide? 
+How do I decide?
 ========================================================
 
- 
+
 ========================================================
 <DIV ALIGN=CENTER>
 <img src="chem.png" width="80%" height="80%" />
@@ -43,6 +43,7 @@ How do I decide?
 <DIV ALIGN=CENTER>
 <img src="rpkg.png" width="80%" height="80%" />
 </DIV>
+
 
 Structure of an R Package
 ========================================================
@@ -65,11 +66,37 @@ Quick Start Guides
 - [Iain Stott](https://methodsblog.wordpress.com/2015/11/30/building-your-first-r-package/)
 - [Videos are nice](https://www.youtube.com/watch?v=9PyQlbAEujY)
 <br> <br><br> <br>
-But really, the only link you'll really ever need: 
+But really, the only link you'll really ever need:
 - [Hadley's Guide](http://r-pkgs.had.co.nz/)
 
+In print
+========================================================
+<DIV ALIGN=CENTER>
+<img src="cover.png" width="60%" height="60%" />
+</DIV>
 
+Online too!
+========================================================
+<DIV ALIGN=CENTER>
+<img src="hyperlinks.png" width="40%" height="40%" />
+</DIV>
 
+What do I need to know?
+========================================================
+- [RStudio integration](https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-RStudio) is really great
+- [devtools](https://github.com/hadley/devtools) makes your life easy
+- [roxygen2](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html) keeps everything documented
+- [testthat](https://github.com/hadley/testthat) keeps your robust with unit tests
+
+Demo
+=======================================================
+- Executing [RStudio integration](https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-RStudio)
+
+Making a Help Manual
+=======================================================
+<DIV ALIGN=CENTER>
+<img src="help.png" width="100%" height="100%" />
+</DIV>
 
 Publishing
 =======================================================
@@ -87,3 +114,37 @@ Benefits of F1000
 - Peer-review also considered after article is posted
 <br><br>
 - Indexed on PubMed
+
+So is this for me?
+=======================================================
+<DIV ALIGN=CENTER>
+<img src="thinking.gif" width="80%" height="80%" />
+</DIV>
+
+========================================================
+<DIV ALIGN=CENTER>
+<img src="rpkg.png" width="80%" height="80%" />
+</DIV>
+
+Current
+=======================================================
+<br>
+- Disorganized work
+- New applications cause it to break
+- You confuse yourself
+
+Optimal
+=======================================================
+<br>
+- Disorganized work -> Package Structure
+- New applications cause it to break -> Unit Testing
+- You confuse yourself -> Required Documentation
+- Easy publication?
+
+Thanks!
+=======================================================
+<DIV ALIGN=CENTER>
+<img src="thanksO.gif" width="80%" height="80%" />
+</DIV>
+
+=======================================================
